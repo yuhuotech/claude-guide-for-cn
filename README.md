@@ -81,8 +81,11 @@ sudo ufw status
 
 ### 关键设置
 
-必须开启**虚拟网卡模式（TUN 模式）**：
+必须开启**虚拟网卡模式（TUN 模式）**。
 
+<img src="images/utun0.png" width="600" alt="Clash Verge Rev 虚拟网卡模式设置">
+
+**设置说明**：
 - Claude Code 运行在终端命令行
 - 终端默认不走系统代理
 - 虚拟网卡模式可以让本机**所有流量**都走代理
@@ -133,3 +136,13 @@ sudo ufw status
 4. **买账号**：淘宝搜索「claude 成品号」
 
 按此流程配置即可稳定使用 Claude Code 原厂服务。
+
+---
+
+## 开始使用
+
+配置完成后，在终端运行 `claude` 命令，即可启动 Claude Code，开始体验 AI 原生编程的乐趣！
+
+<img src="images/claude_code_01.png" width="600" alt="Claude Code 启动界面">
+
+> 享受与 Claude 的 pair programming 之旅吧！
